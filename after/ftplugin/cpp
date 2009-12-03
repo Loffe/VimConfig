@@ -1,0 +1,7 @@
+" toggle comments
+
+map § :s_^\(\s*\)\(//\s*\)\?_\1// _<Enter>
+map ½ ^:s_^\(\s*\)//\s*_\1_<Enter>
+
+" Lazy semicolon of eol
+nmap ; A;<Esc>
