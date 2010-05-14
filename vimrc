@@ -14,6 +14,8 @@ augroup filetypedetect
     au! BufNewFile,BufRead *.pde set filetype=arduino
 augroup END
 
+let g:tex_flavor='latex'
+
 " let g:netrw_sort_sequence += ',\.class'
 
 " au! BufNewFile,BufRead *.java source ~/.vim/java.vim
