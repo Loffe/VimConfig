@@ -1,4 +1,7 @@
 filetype plugin indent on
+
+" Set to auto read when a file is changed from the outside
+set autoread
 syn on
 set gfn=Monospace\ 9
 set guioptions-=T
