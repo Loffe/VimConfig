@@ -17,6 +17,9 @@ augroup filetypedetect
     au! BufNewFile,BufRead *.pde set filetype=arduino
 augroup END
 
+" Wonderfull completetion for css
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+
 let g:tex_flavor='latex'
 
 " let g:netrw_sort_sequence += ',\.class'

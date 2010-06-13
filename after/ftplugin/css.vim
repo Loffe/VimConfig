@@ -1,4 +1,4 @@
-nmap ,s /{<Enter>jV/}<Enter>k:sort<Enter>
+nmap ,s viB:sort<Enter>
 
 " CSS comments over one line
 nmap § I/*<Esc>A*/<Esc>
