@@ -1,0 +1,13 @@
+       README
+====================
+
+This vim configuration contains the following stuff:
+
+* Sparkup
+* Fast comment/uncomment for various languages with §/½ key
+* latex-suite
+* SnipMate plugin
+* filetype detection of drupal files
+* Syntax highlighting of .todo files
+* Enabled css completions
+* command line git-grep
