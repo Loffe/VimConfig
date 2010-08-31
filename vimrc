@@ -96,3 +96,5 @@ function! GitGrep(...)
   let &grepprg = save
 endfun
 command! -nargs=? G call GitGrep(<f-args>)
+
+command! Date :r!date +\%Y\%m\%d
