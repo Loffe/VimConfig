@@ -15,3 +15,4 @@ This vim configuration contains the following stuff:
 * Syntax highlighting of .todo files
 * Enabled css completions
 * command line git-grep
+* Better prolog syntax
