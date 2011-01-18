@@ -207,12 +207,10 @@ snippet foreach
 		${3:// code...}
 	}
 snippet fun
-	${1:public }function ${2:FunctionName}(${3}) {
-		${4}
+	${1:public }function ${2:FunctionName}(${3})
+	{
+		${4:// code...}
 	}
 # $... = array (...)
 snippet array
 	$${1:arrayName} = array('${2}' => ${3});${4}
-
-snippet tLog
-	tLog('${1}', 'ERROR');${2}
