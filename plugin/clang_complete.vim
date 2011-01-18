@@ -507,7 +507,8 @@ function! s:ClangCompleteBinary(base)
   if g:clang_use_snipmate == 1
     " Quick & Easy way to prevent snippets to be added twice
     " Ideally we should modify snipmate to be smarter about this
-    call ReloadSnippets(&filetype)
+
+    " call ReloadSnippets(&filetype)
     let b:snipmate_snippets = {}
   endif
 
