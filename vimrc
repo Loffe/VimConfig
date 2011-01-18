@@ -5,6 +5,7 @@ set autoread
 syn on
 set gfn=Monospace\ 9
 set guioptions-=T
+let g:clang_complete_copen = 1
 
 augroup filetypedetect
     au! BufNewFile,BufRead *.phtml set filetype=php
