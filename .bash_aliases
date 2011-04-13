@@ -17,4 +17,4 @@ complete -o default -o nospace -F _git_checkout gco
 complete -o default -o nospace -F _git_fetch gf
 
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
-PS1='\e[4;30m\e[1;30m\u@\h \w$(__git_ps1 " (%s)")\e[0m\n \$ '
+PS1='\e[1;4;30;32m\u@\h \w\e[24m$(__git_ps1 " (%s)")\e[0m\n \$ '
