@@ -6,6 +6,7 @@ syn on
 set gfn=Monospace\ 9
 set guioptions-=T
 let g:clang_complete_copen = 1
+let g:slimv_client = 'python ~/.vim/ftplugin/slimv.py -r "xterm -T Slimv -e @p @s -l \"lein repl\" -s"' "
 
 augroup filetypedetect
     au! BufNewFile,BufRead *.phtml set filetype=php
