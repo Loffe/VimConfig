@@ -7,7 +7,9 @@ set autoread
 syn on
 set gfn=Monospace\ 9
 set guioptions-=T
-let g:clang_complete_copen = 1
+" Disable clang uatocomplete by default
+let g:clang_complete_copen = 0
+let g:clang_complete_auto = 0
 let g:slimv_client = 'python ~/.vim/ftplugin/slimv.py -r "xterm -T Slimv -e @p @s -l \"lein repl\" -s"' "
 
 augroup filetypedetect
