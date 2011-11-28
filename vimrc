@@ -24,6 +24,7 @@ augroup filetypedetect
     au! BufNewFile,BufRead *.fs set filetype=cpp
     au! BufNewFile,BufRead *.vs set filetype=cpp
     au! BufNewFile,BufRead *.org set filetype=org
+    au! BufNewFile,BufRead *.cu set filetype=cpp
 augroup END
 
 " Wonderfull completetion for css
@@ -92,6 +93,10 @@ set encoding=utf-8
 function! EloffToggleTab()
 	set invexpandtab
 	echo "Uses " . (&expandtab ? "spaces" :"tabs" )
+endfunction
+
+function! RemoveTrailingWhitespace()
+    :%s/\s\+$//
 endfunction
 
 function! GitGrep(...)
