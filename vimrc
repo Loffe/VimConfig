@@ -25,6 +25,7 @@ augroup filetypedetect
     au! BufNewFile,BufRead *.vs set filetype=cpp
     au! BufNewFile,BufRead *.org set filetype=org
     au! BufNewFile,BufRead *.cu set filetype=cpp
+    au! BufNewFile,BufRead *.coffee set filetype=coffee
 augroup END
 
 " Wonderfull completetion for css
