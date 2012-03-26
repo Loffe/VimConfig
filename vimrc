@@ -1,5 +1,6 @@
 filetype plugin indent on
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
+" call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " Set to auto read when a file is changed from the outside
