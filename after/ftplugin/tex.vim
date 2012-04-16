@@ -4,3 +4,8 @@ nmap <F5> I\[ <Esc>A \]<Esc>
 
 map § I%<Esc>
 map <silent> ½ ^:s/^\(\s*\)%/\1/<Enter>
+
+noremap <buffer> <Up> gk
+noremap <buffer> <Down> gj
+inoremap <buffer> <Up> <C-o>gk
+inoremap <buffer> <Down> <C-o>gj
