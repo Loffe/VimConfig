@@ -7,5 +7,7 @@ map <silent> ½ ^:s/^\(\s*\)%/\1/<Enter>
 
 noremap <buffer> <Up> gk
 noremap <buffer> <Down> gj
+noremap <buffer> k gk
+noremap <buffer> j gj
 inoremap <buffer> <Up> <C-o>gk
 inoremap <buffer> <Down> <C-o>gj
