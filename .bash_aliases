@@ -12,6 +12,7 @@ alias gpl='git pull'
 alias gco='git checkout'
 alias gdd='git-diff-divert'
 alias can-haz='sudo apt-get install'
+alias gg='git grep'
 
 complete -o default -o nospace -F _git_checkout gco
 complete -o default -o nospace -F _git_fetch gf
