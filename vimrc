@@ -49,6 +49,8 @@ set noswapfile
 " source ~/.config/vim/BufClose.vim
 " source ~/.config/vim/jcommentar.vim
 
+nmap <Leader>l :lcd %:h<Enter>
+
 " switch tabs
 nmap <C-Tab> gt
 nmap <C-S-Tab> gT
