@@ -100,6 +100,7 @@ set lcs=tab:→.
 set lcs+=trail:.
 highlight SpecialKey term=bold ctermfg=4 guifg=Darkgrey
 set undofile
+set undodir=~/.vim/undodir
 
 set encoding=utf-8
 
