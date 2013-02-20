@@ -63,6 +63,12 @@ nmap <Leader>l :lcd %:h<Enter>
 " switch tabs
 nmap <C-Tab> gt
 nmap <C-S-Tab> gT
+
+" Move tabs with alt + left|right
+nnoremap <silent> <A-Left> :execute 'silent! tabmove ' . (tabpagenr()-2)<CR>
+nnoremap <silent> <A-Right> :execute 'silent! tabmove ' . tabpagenr()<CR>
+
+
 " awesome, inserts new line without going into insert mode
 map <S-Enter> O<ESC>
 
