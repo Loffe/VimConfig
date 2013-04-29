@@ -6,6 +6,7 @@ function _exists()
 
 alias can-haz='sudo apt-get install'
 alias beep='play /usr/share/sounds/ubuntu/stereo/system-ready.ogg 2>/dev/null'
+alias dusch='du -sch'
 
 PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 PS1='\e[1;4;30;32m\u@\h \w\e[24m$(__git_ps1 " (%s)")\e[0m\n \$ '
