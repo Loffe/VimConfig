@@ -21,7 +21,7 @@ function _update_ps1()
 }
 
 # Poweline style bash prompt!
-export PROMPT_COMMAND="_update_ps1"
+#export PROMPT_COMMAND="_update_ps1"
 
 ##########################################################################
 # Git aliases (with bash completion!)                                    #
