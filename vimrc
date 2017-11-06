@@ -116,7 +116,11 @@ set tabstop=4
 set softtabstop=4
 set sw=4
 set hls
-set lcs=tab:→.
+if has("gui_running")
+    set lcs=tab:→.
+else
+    set lcs=tab:>.
+endif
 set lcs+=trail:.
 highlight SpecialKey term=bold ctermfg=4 guifg=Darkgrey
 set undofile
