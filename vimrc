@@ -1,7 +1,19 @@
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'kien/ctrlp.vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'powerline/powerline'
+
+call vundle#end()
+
 filetype plugin indent on
-call pathogen#infect()
-" call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -51,7 +63,6 @@ let g:tex_flavor='latex'
 " au! BufNewFile,BufRead *.php source ~/.vim/php.vim
 " au! BufNewFile,BufRead *.x68 source ~/.vim/x68.vim
 
-set nocompatible
 set noswapfile
 
 " source ~/.vim/fuzzy.vim
