@@ -112,6 +112,9 @@ match Todo /\s\+$/
 " Insert current date
 nmap <Leader>d :r !date +\%Y\%m\%d<Enter>
 
+" Search for visual selection
+vnoremap // y/<c-r>"<Enter>
+
 
 set ai
 set expandtab
