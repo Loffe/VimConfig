@@ -26,6 +26,7 @@ let g:clang_complete_auto = 0
 let g:slimv_client = 'python ~/.vim/ftplugin/slimv.py -r "xterm -T Slimv -e @p @s -l \"lein repl\" -s"' "
 
 augroup filetypedetect
+    au! BufNewFile,BufRead *.gradle set filetype=groovy
     au! BufNewFile,BufRead *.md set filetype=markdown
     au! BufNewFile,BufRead *.phtml set filetype=php
     au! BufNewFile,BufRead *.module set filetype=php
