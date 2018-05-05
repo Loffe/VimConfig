@@ -10,6 +10,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'kien/ctrlp.vim'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'powerline/powerline'
+Plugin 'pangloss/vim-javascript'
 
 call vundle#end()
 
