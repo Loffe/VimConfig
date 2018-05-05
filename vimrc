@@ -38,6 +38,8 @@ augroup filetypedetect
     au! BufNewFile,BufRead *.pde set filetype=arduino
     au! BufNewFile,BufRead *.fs set filetype=cpp
     au! BufNewFile,BufRead *.vs set filetype=cpp
+    au! BufNewFile,BufRead *.fragment set filetype=cpp
+    au! BufNewFile,BufRead *.vertex set filetype=cpp
     au! BufNewFile,BufRead *.org set filetype=org
     au! BufNewFile,BufRead *.cu set filetype=cpp
     au! BufNewFile,BufRead *.coffee set filetype=coffee
